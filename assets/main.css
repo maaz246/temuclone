@@ -18,14 +18,14 @@
 }
 .mg-header-menu li:hover a {
     background: #8080807a;
-    color: white;
-    text-decoration: none;
+    color: white !important;
+    text-decoration: none !important;
 }
 .mg-header-menu .header__active-menu-item { 
-    color: white;
+    color: white !important;
     font-size: 16px;
     font-weight: 600;
     background: #8080807a;
     border-radius: 50px;
-    text-decoration:none;
+    text-decoration:none !important;
 } 
