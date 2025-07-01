@@ -119,7 +119,7 @@
           justify-content: space-around;
           align-items: center;
         }
-        .announcement-column p {
+        .announcement-column span {
         font-weight: 600;
     }
         .announcement-column {
@@ -173,10 +173,10 @@
       {% if block.settings.text %}
         {% if block.settings.link %}
           <a href="{{ block.settings.link }}">
-            <p>{{ block.settings.text }}</p>
+            <span>{{ block.settings.text }}</span>
           </a>
         {% else %}
-          <p>{{ block.settings.text }}</p>
+          <span>{{ block.settings.text }}</span>
         {% endif %}
       {% endif %}
     </div>
