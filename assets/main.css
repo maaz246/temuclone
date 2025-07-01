@@ -18,6 +18,8 @@
 }
 .mg-header-menu li:hover a {
     background: #8080807a;
+    color: white;
+    text-decoration: none;
 }
 .mg-header-menu .header__active-menu-item { 
     color: white;
