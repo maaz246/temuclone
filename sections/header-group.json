@@ -46,7 +46,7 @@
       ],
       "settings": {
         "layout": "horizontal",
-        "icon_size": 4.5,
+        "icon_size": 3,
         "text_alignment": "center",
         "background_color": "#000000",
         "text_color": "#ffffff"
