@@ -22,14 +22,6 @@
             "link": ""
           }
         },
-        "column_kYmWRU": {
-          "type": "column",
-          "settings": {
-            "icon": "shopify://shop_images/truck-time-svgrepo-com_1.svg",
-            "text": "Nation wide free Delivery",
-            "link": ""
-          }
-        },
         "column_HULF4M": {
           "type": "column",
           "settings": {
@@ -37,12 +29,20 @@
             "text": "Nation wide free Delivery",
             "link": ""
           }
+        },
+        "column_kYmWRU": {
+          "type": "column",
+          "settings": {
+            "icon": "shopify://shop_images/smartphone-2-svgrepo-com_2.svg",
+            "text": "Download our App",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "column_PQ9f9q",
-        "column_kYmWRU",
-        "column_HULF4M"
+        "column_HULF4M",
+        "column_kYmWRU"
       ],
       "settings": {
         "layout": "horizontal",
