@@ -28,10 +28,10 @@
       ],
       "settings": {
         "layout": "horizontal",
-        "icon_size": 4,
+        "icon_size": 4.5,
         "text_alignment": "center",
-        "background_color": "#121212",
-        "text_color": "#000000"
+        "background_color": "#000000",
+        "text_color": "#ffffff"
       }
     },
     "header": {
