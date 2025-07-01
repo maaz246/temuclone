@@ -2,6 +2,6 @@
     background-color: #0092A5;
     padding: 0px 20px !important;
 }
-.header-wrapper{
-    border: 0px !important;
+.header-wrapper--border-bottom{
+    border:0px !important;
 }
