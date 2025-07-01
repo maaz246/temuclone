@@ -109,39 +109,45 @@
 {% endschema %}
 
 <style>
-    .custom-announcement-bar {
-      background-color: {{ section.settings.background_color }};
-      color: {{ section.settings.text_color }};
-      padding: 5px 0;
-      text-align: {{ section.settings.text_alignment }};
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-      align-items: center;
+        .custom-announcement-bar {
+          background-color: {{ section.settings.background_color }};
+          color: {{ section.settings.text_color }};
+          padding: 5px 0;
+          text-align: {{ section.settings.text_alignment }};
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-around;
+          align-items: center;
+        }
+        .announcement-column p {
+        font-weight: 600;
     }
-
-    .announcement-column {
-      display: flex;
-      align-items: center;
-      gap: 20px;
-  }
-
-    .announcement-column img {
-      width: calc({{ section.settings.icon_size }}rem);
-      height: auto;
-    }
-
-    .announcement-column a {
-      color: {{ section.settings.text_color }};
-      text-decoration: none;
-    }
-
-    @media only screen and (max-width: 600px) {
-      .announcement-column {
-        flex: 1 1 100%;
-        max-width: 100%;
+        .announcement-column {
+          display: flex;
+          align-items: center;
+          gap: 20px;
       }
-    }
+
+        .announcement-column img {
+          width: calc({{ section.settings.icon_size }}rem);
+          height: auto;
+        }
+
+        .announcement-column a {
+          color: {{ section.settings.text_color }};
+          text-decoration: none;
+        }
+        .announcement-column a:nth-child(2){
+          color: #FFF7A7
+  ;
+        }
+
+        @media only screen and (max-width: 600px) {
+          .announcement-column {
+            flex: 1 1 100%;
+            max-width: 100%;
+          }
+        }
 </style>
 
 <div class="custom-announcement-bar">
