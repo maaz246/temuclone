@@ -25,7 +25,7 @@
         "column_HULF4M": {
           "type": "column",
           "settings": {
-            "icon": "shopify://shop_images/truck-time-svgrepo-com_1.svg",
+            "icon": "shopify://shop_images/truck-tick-svgrepo-com.svg",
             "text": "Delivery Guarantee <br>Refund for any issues",
             "link": ""
           }
