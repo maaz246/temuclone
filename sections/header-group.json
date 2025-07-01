@@ -17,9 +17,9 @@
         "column_PQ9f9q": {
           "type": "column",
           "settings": {
-            "icon": "shopify://shop_images/truck-time-svgrepo-com.svg",
+            "icon": "shopify://shop_images/truck-time-svgrepo-com_1.svg",
             "text": "Nation wide free Delivery",
-            "link": ""
+            "link": "#"
           }
         },
         "column_kYmWRU": {
@@ -49,7 +49,7 @@
         "icon_size": 3,
         "text_alignment": "center",
         "background_color": "#000000",
-        "text_color": "#ffffff"
+        "text_color": "#adffa2"
       }
     },
     "header": {
