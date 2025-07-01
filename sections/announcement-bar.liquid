@@ -109,41 +109,40 @@
 {% endschema %}
 
 <style>
-  .custom-announcement-bar {
-    background-color: {{ section.settings.background_color }};
-    color: {{ section.settings.text_color }};
-    padding: 20px 0;
-    text-align: {{ section.settings.text_alignment }};
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-  }
-
-  .announcement-column {
-    flex: 1 1 30%;
-    max-width: 30%;
-    padding: 10px;
-    text-align: center;
-  }
-
-  .announcement-column img {
-    width: calc({{ section.settings.icon_size }}rem);
-    height: auto;
-    margin-bottom: 10px;
-  }
-
-  .announcement-column a {
-    color: {{ section.settings.text_color }};
-    text-decoration: none;
-  }
-
-  @media only screen and (max-width: 600px) {
-    .announcement-column {
-      flex: 1 1 100%;
-      max-width: 100%;
+    .custom-announcement-bar {
+      background-color: {{ section.settings.background_color }};
+      color: {{ section.settings.text_color }};
+      padding: 5px 0;
+      text-align: {{ section.settings.text_alignment }};
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
     }
+
+    .announcement-column {
+      display: flex;
+      align-items: center;
+      gap: 20px;
   }
+
+    .announcement-column img {
+      width: calc({{ section.settings.icon_size }}rem);
+      height: auto;
+      margin-bottom: 10px;
+    }
+
+    .announcement-column a {
+      color: {{ section.settings.text_color }};
+      text-decoration: none;
+    }
+
+    @media only screen and (max-width: 600px) {
+      .announcement-column {
+        flex: 1 1 100%;
+        max-width: 100%;
+      }
+    }
 </style>
 
 <div class="custom-announcement-bar">
