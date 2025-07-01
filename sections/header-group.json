@@ -18,7 +18,7 @@
           "type": "column",
           "settings": {
             "icon": "shopify://shop_images/truck-time-svgrepo-com_1.svg",
-            "text": "Nation wide free Delivery",
+            "text": "Free shipping on all orders <br>Limited-time offer",
             "link": ""
           }
         },
@@ -47,7 +47,7 @@
       "settings": {
         "layout": "horizontal",
         "icon_size": 3,
-        "text_alignment": "center",
+        "text_alignment": "left",
         "background_color": "#000000",
         "text_color": "#adffa2"
       }
