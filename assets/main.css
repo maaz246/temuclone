@@ -5,3 +5,25 @@
 .header-wrapper--border-bottom{
     border:0px !important;
 }
+.mg-header-menu a {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: transparent;
+    border-radius: 50px;
+    transform-origin: center;
+    transition: 0.3s ease;
+    margin: 0px 10px;
+    text-decoration: none;
+}
+.mg-header-menu li:hover a {
+    background: #8080807a;
+}
+.mg-header-menu .header__active-menu-item { 
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    background: #8080807a;
+    border-radius: 50px;
+    text-decoration:none;
+} 
