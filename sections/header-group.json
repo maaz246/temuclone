@@ -21,10 +21,28 @@
             "text": "Nation wide free Delivery",
             "link": ""
           }
+        },
+        "column_kYmWRU": {
+          "type": "column",
+          "settings": {
+            "icon": "shopify://shop_images/truck-time-svgrepo-com.svg",
+            "text": "Nation wide free Delivery",
+            "link": ""
+          }
+        },
+        "column_HULF4M": {
+          "type": "column",
+          "settings": {
+            "icon": "shopify://shop_images/truck-time-svgrepo-com.svg",
+            "text": "Nation wide free Delivery",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "column_PQ9f9q"
+        "column_PQ9f9q",
+        "column_kYmWRU",
+        "column_HULF4M"
       ],
       "settings": {
         "layout": "horizontal",
